@@ -1,0 +1,212 @@
+# KisanDirect AI — GitHub Copilot Instructions
+
+## PROJECT IDENTITY
+
+Project: KisanDirect AI
+
+SIH Problem Statement ID: 26033
+
+Problem:
+"Multiple intermediaries reduce farmers earnings and increase consumer prices."
+
+Organization:
+Ministry of Consumer Affairs, Food & Public Distribution
+
+Department:
+Department of Consumer Affairs (DoCA)
+
+Theme:
+Agriculture, FoodTech & Rural Development
+
+## PROJECT OBJECTIVE
+
+Build an AI-powered digital agricultural marketplace connecting:
+
+* Farmers
+* Farmer Producer Organizations (FPOs)
+* Consumers
+* Bulk buyers
+* Logistics operators
+* Administrators
+
+The platform must reduce supply-chain inefficiencies by enabling direct digital transactions and intelligent coordination.
+
+## CORE FEATURES
+
+1. Farmer marketplace
+2. FPO marketplace
+3. Consumer marketplace
+4. Bulk buyer marketplace
+5. Product listing
+6. Inventory management
+7. Order management
+8. Supply aggregation
+9. Demand forecasting
+10. Logistics management
+11. Route optimization
+12. Delivery tracking
+13. Analytics
+14. Role-based authentication
+15. Admin dashboard
+
+## TECHNOLOGY
+
+Frontend:
+
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+
+Backend:
+
+* Python
+* FastAPI
+
+Database:
+
+* PostgreSQL
+* SQLAlchemy
+
+Validation:
+
+* Pydantic
+
+Authentication:
+
+* JWT
+
+Machine Learning:
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+
+Maps:
+
+* Leaflet
+* OpenStreetMap
+
+## ENGINEERING PRINCIPLES
+
+Always prefer:
+
+* simple architecture
+* modular code
+* readable code
+* maintainability
+* security
+* testability
+* explicit error handling
+* clear naming
+* reusable components
+
+Do not introduce unnecessary technologies.
+
+Do not create microservices unless explicitly requested.
+
+## BEGINNER DEVELOPMENT MODE
+
+The primary developer has limited programming experience.
+
+Therefore:
+
+* Explain important technical decisions.
+* Give exact file paths.
+* Explain commands.
+* Explain dependencies.
+* Do not assume advanced knowledge.
+* Do not dump huge amounts of unrelated code.
+* Work incrementally.
+* Clearly state what changed.
+
+## DATA INTEGRITY
+
+Never invent real-world statistics.
+
+Clearly distinguish:
+
+* real data
+* public data
+* synthetic/demo data
+* model predictions
+* estimates
+
+Never present synthetic data as real data.
+
+## AI PRINCIPLES
+
+Do not call an algorithm AI merely for marketing.
+
+Clearly distinguish:
+
+* machine learning
+* statistical forecasting
+* optimization
+* routing
+* rule-based logic
+* AI decision support
+
+Demand forecasting must be evaluated using appropriate metrics.
+
+Route optimization must show measurable baseline-versus-optimized results.
+
+## SECURITY
+
+Never hard-code:
+
+* API keys
+* passwords
+* JWT secrets
+* database credentials
+
+Use environment variables.
+
+Validate user input.
+
+Implement role-based authorization.
+
+## DEVELOPMENT RULE
+
+Never rewrite unrelated files.
+
+Before making major architectural changes:
+
+1. Explain the change.
+2. Explain why it is necessary.
+3. Identify affected files.
+4. Wait for approval if the change affects the architecture.
+
+## OUTPUT FORMAT
+
+For implementation tasks provide:
+
+### Objective
+
+### Files affected
+
+### Implementation
+
+### Explanation
+
+### Commands
+
+### Testing
+
+### Expected result
+
+### Next step
+
+## SIH REQUIREMENT
+
+Every major feature should be explainable in terms of the original problem statement.
+
+The system should ultimately demonstrate:
+
+* improved farmer realization
+* reduced consumer price where economically feasible
+* reduced unnecessary intermediaries
+* improved supply-demand coordination
+* improved logistics efficiency
+* measurable impact

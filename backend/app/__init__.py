@@ -1,0 +1,1 @@
+"""KisanDirect AI backend package."""
